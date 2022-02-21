@@ -6,6 +6,11 @@ module.exports = {
       sans: ["Noto Sans KR", "Malgun Gothic", "sans-serif"],
     },
     extend: {
+      spacing: {
+        wrap: "970px",
+        content: "660px",
+        thumbnail: "270px",
+      },
       lineHeight: {
         tag: "1.58",
       },

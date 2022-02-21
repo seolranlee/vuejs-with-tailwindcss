@@ -3,10 +3,10 @@
     <HelloWorld v-show="false" msg="Welcome to Your Vue.js App" />
 
     <!-- blog  -->
-    <div class="wrapper p-4">
-      <ul class="posts">
-        <li class="item py-8 border-t border-gray-100">
-          <div>
+    <div class="wrapper p-4 md:p-0 flex justify-center">
+      <ul class="posts md:w-wrap">
+        <li class="item py-8 border-t border-gray-100 md:flex justify-between">
+          <div class="md:w-content">
             <h3 class="font-sans text-base font-medium text-primary">Tech</h3>
             <h2
               class="font-sans text-2xl font-bold text-black line-clamp-3 md:line-clamp-2"
@@ -49,17 +49,21 @@
               </li>
             </ul>
           </div>
+          <div
+            class="rounded-2xl hidden md:flex w-thumbnail"
+            style="background-color: #00c7ae"
+          ></div>
         </li>
-        <li class="item py-8 border-t border-gray-100">
-          <div>
+        <li class="item py-8 border-t border-gray-100 md:flex justify-between">
+          <div class="md:w-content">
             <h3 class="font-sans text-base font-medium text-primary">Tech</h3>
             <h2
               class="font-sans text-2xl font-bold text-black line-clamp-3 md:line-clamp-2"
             >
               <a href="#"
                 >애자일의 근본 알아보기 애자일의 근본 알아보기 애자일의 근본
-                알아보기 애자일의 근본 알아보기 애자일의 근본 알아보기 애자일의
-                근본 알아보기</a
+                알아보기 애자일의 근본 알아보기애자일의 근본 알아보기 애자일의
+                근본 알아보기 애자일의 근본 알아보기</a
               >
             </h2>
             <p>
@@ -125,10 +129,14 @@
               </li>
             </ul>
           </div>
+          <div
+            class="rounded-2xl hidden md:flex w-thumbnail"
+            style="background-color: #00c7ae"
+          ></div>
         </li>
-        <li class="item py-8 border-t border-gray-100">
-          <div>
-            <h3 class="font-sans text-base font-medium text-primary">Design</h3>
+        <li class="item py-8 border-t border-gray-100 md:flex justify-between">
+          <div class="md:w-content">
+            <h3 class="font-sans text-base font-medium text-primary">Tech</h3>
             <h2
               class="font-sans text-2xl font-bold text-black line-clamp-3 md:line-clamp-2"
             >
@@ -170,6 +178,10 @@
               </li>
             </ul>
           </div>
+          <div
+            class="rounded-2xl hidden md:flex w-thumbnail"
+            style="background-color: #00c7ae"
+          ></div>
         </li>
       </ul>
     </div>
